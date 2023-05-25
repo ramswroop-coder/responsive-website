@@ -1,0 +1,261 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+*{
+    margin-top: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+#logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 85px;
+}
+#ram {
+    margin: 12px;
+    /* padding: 12px; */
+}
+#ul_nav {
+    list-style-type: none;
+    display: flex;
+   
+}
+.headings {
+    cursor: pointer;
+    margin: 12px;
+    padding: 12px;
+    
+}
+.headings a{
+    margin: 10px;
+    padding: 10px;
+}
+.headings a:hover{
+    color: yellowgreen;
+    background-color: rgb(210, 210, 235);
+    border-radius: 12px;
+}
+a {
+    text-decoration: none;
+}
+.head {
+    color: white;
+}
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 45px;
+    text-align: center;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    height: 300px;
+   
+}
+#home::before{
+    content: "";
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+p{  font-family: 'Tangerine', serif;
+    font-size: 35px;
+    margin: 7px;
+    
+}
+#h1_first {
+    margin: 10px;
+    padding: 10px;
+}
+#button {
+    background-color: red;
+    border-radius: 8px;
+    height: 40px;
+    margin: 30px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#button:hover{
+    background-color: rgb(207, 238, 238);
+    color: black;
+}
+#Services {
+    margin: 15px;
+    padding: 12px 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 700px;
+}
+.object {
+    height: 160px;
+}
+.para {
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 80%;
+}
+#boxes {
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.box_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 12px;
+    padding: 12px;
+    background-color: rgb(209, 214, 219);
+    border-radius: 12px;
+    border: 2px solid green;
+}
+.box_item:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#ser_head {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ser_head h1 {
+    text-align: center;
+}
+#client-section {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#client-section::before{
+    content: "";
+    background-image: url("bg.jpg");
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    height: 390px;
+    width: 100%;
+
+}
+#clients {
+    margin: 0 12px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#clients .client-item img {
+    height: 185px;
+}
+.client-item {
+    margin: 10px;
+    padding: 20px;
+}
+#Contact-Us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+   
+    text-align: center;
+}
+#Contact-Us::before{
+    content: "";
+    background-image: url("contact.jpg");
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    height: 560px;
+    width: 100%;
+
+}
+
+.form-group {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#contact-box .form-group label {
+    width: 100%;
+    color: black;
+    font-size: 25px;
+   
+}
+.form-group input {
+    height: 30px;
+    padding: 4px;
+    border-radius:9px;
+}
+.form-group textarea{
+    padding: 4px;
+    border-radius:9px;
+}
+#contact-box form {
+    width: 70%;
+    margin: 0 100px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    height: 40px;
+    text-align: center;
+}
